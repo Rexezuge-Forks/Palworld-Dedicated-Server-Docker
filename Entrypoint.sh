@@ -25,4 +25,5 @@ fi
 # Start Game
 exec /PalContent/PalServer.sh \
   -port="$SRV_PORT" \
-  -players="$SRV_PLAYERS"
+  -players="$SRV_PLAYERS" \
+  -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS
