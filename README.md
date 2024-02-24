@@ -16,3 +16,7 @@ docker run -d -p 8211:8211/udp \
   -v PalContent_DATA:/PalContent \
   rexezuge/palworld-server:release
 ```
+
+## Official Documentation
+
+[[Configuration file](https://tech.palworldgame.com/settings-and-operation/configuration)]
